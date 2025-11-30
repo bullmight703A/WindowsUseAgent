@@ -1,0 +1,12 @@
+{
+  "provider": "openai",
+  "provider_config": {
+    "api_key": "your-openai-api-key-here",
+    "model": "gpt-3.5-turbo"
+  },
+  "agent_config": {
+    "temperature": 0.7,
+    "max_tokens": 1000,
+    "system_prompt": "You are a helpful Windows desktop assistant."
+  }
+}

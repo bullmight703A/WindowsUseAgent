@@ -1,0 +1,13 @@
+# Example YAML configuration for WindowsUseAgent
+
+provider: openai
+
+provider_config:
+  api_key: your-api-key-here
+  model: gpt-3.5-turbo
+  # organization: org-...  # Optional for OpenAI
+
+agent_config:
+  temperature: 0.7
+  max_tokens: 1000
+  system_prompt: You are a helpful Windows desktop assistant.
